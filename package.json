@@ -1,0 +1,22 @@
+{
+  "name": "bluetooth-keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "bin": {
+    "blkeyboard": "./bin/bluetooth-keyboard.js"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-15"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
